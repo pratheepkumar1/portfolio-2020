@@ -1,0 +1,11 @@
+.project-card {
+  @include mq(small) {
+    flex-direction: column !important;
+    :nth-child(1) {
+      order: 1;
+    }
+    :nth-child(1) {
+      order: 2;
+    }
+  }
+}

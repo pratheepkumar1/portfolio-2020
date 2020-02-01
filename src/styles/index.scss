@@ -1,0 +1,13 @@
+@import "mediaQuery";
+@import "bootstrap";
+@import "variables";
+@import "common";
+@import "home";
+@import "about";
+@import "project";
+
+body {
+  display: flex;
+  background: $color-page-background;
+  height: 100%;
+}

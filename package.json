@@ -1,0 +1,20 @@
+{
+  "name": "pratheepkumar",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve src/pages/*.html",
+    "watch": "parcel watch src/pages/index.html src/pages/about.html",
+    "build": "parcel build src/pages/*.html --out-dir build --public-url ./ --no-source-maps"
+  },
+  "keywords": [
+    "pratheepkumar",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.23.0-module.beta.1"
+  }
+}

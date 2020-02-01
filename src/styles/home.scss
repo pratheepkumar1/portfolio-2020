@@ -1,0 +1,57 @@
+.home-container {
+  height: 100vh;
+}
+
+.blog-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.resume-text {
+  writing-mode: sideways-lr;
+  text-orientation: mixed;
+}
+
+.name-header {
+  color: $color-x-black;
+  font-size: 0.75rem;
+  height: 1.7rem;
+}
+
+.profile-name {
+  font-family: "SansForgetica", regular !important;
+  color: $color-grey-100;
+  @include mq(small) {
+    font-size: 2rem !important;
+  }
+}
+
+.name-header-left {
+  height: 0.7rem;
+  border-top: 1px solid #6a6d70;
+  border-left: 1px solid #6a6d70;
+}
+
+.name-header-right {
+  height: 0.7rem;
+  border-top: 1px solid #6a6d70;
+  border-right: 1px solid #6a6d70;
+}
+
+.my-description {
+  color: $color-grey-075;
+  span {
+    background: #333333;
+    color: $color-white;
+  }
+}
+
+.current-position {
+  background: #000000;
+  border-radius: 8px;
+  .current-position-content {
+    color: $color-grey-075;
+    span {
+      font-weight: bold;
+    }
+  }
+}
