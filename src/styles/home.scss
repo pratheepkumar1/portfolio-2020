@@ -3,13 +3,14 @@
 }
 
 .blog-text {
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 .resume-text {
-  writing-mode: sideways-lr;
+  writing-mode: vertical-lr;
   text-orientation: mixed;
 }
+
 
 .name-header {
   color: $color-x-black;
@@ -20,6 +21,7 @@
 .profile-name {
   font-family: "SansForgetica", regular !important;
   color: $color-grey-100;
+  font-size: 3rem !important;
   @include mq(small) {
     font-size: 2rem !important;
   }
