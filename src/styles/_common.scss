@@ -25,6 +25,16 @@
   src: url("../assets/font/HKGrotesk-SemiBold.ttf") format("truetype");
 }
 
+.reference-link {
+  font-weight: bold;
+  color: $color-white;
+  &:hover {
+    border: none;
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
 .link {
   color: $color-white;
   font-size: 1rem;
@@ -94,14 +104,19 @@
   text-transform: none !important;
 }
 
-.card {
+.card-dark {
   background: #333333;
   border-radius: 4px;
+}
+
+.card {
+  background: transparent;
 }
 
 .color-white {
   color: $color-white !important;
 }
+
 
 .page-title {
   font-family: hk-grotesk-bold, Helvetica Neue, Arial, sans-serif !important;
