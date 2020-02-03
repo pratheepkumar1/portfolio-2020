@@ -184,12 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../styles/index.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./../assets/font/SansForgetica-Regular.otf":[["SansForgetica-Regular.4efd48bd.otf","../assets/font/SansForgetica-Regular.otf"],"../assets/font/SansForgetica-Regular.otf"],"./../assets/font/HKGrotesk-Bold.ttf":[["HKGrotesk-Bold.18bd3d2e.ttf","../assets/font/HKGrotesk-Bold.ttf"],"../assets/font/HKGrotesk-Bold.ttf"],"./../assets/font/HKGrotesk-SemiBold.ttf":[["HKGrotesk-SemiBold.e07bf1a4.ttf","../assets/font/HKGrotesk-SemiBold.ttf"],"../assets/font/HKGrotesk-SemiBold.ttf"],"./../assets/font/HKGrotesk-Medium.ttf":[["HKGrotesk-Medium.4579de02.ttf","../assets/font/HKGrotesk-Medium.ttf"],"../assets/font/HKGrotesk-Medium.ttf"],"./../assets/font/HKGrotesk-Regular.ttf":[["HKGrotesk-Regular.8df35bd2.ttf","../assets/font/HKGrotesk-Regular.ttf"],"../assets/font/HKGrotesk-Regular.ttf"],"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +389,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/styles.76d4e0c1.js.map
+//# sourceMappingURL=/about.js.map

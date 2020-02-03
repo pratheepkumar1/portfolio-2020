@@ -11,6 +11,11 @@
 }
 
 @font-face {
+  font-family: "hk-grotesk-semi-bold";
+  src: url("../assets/font/HKGrotesk-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "hk-grotesk-medium";
   src: url("../assets/font/HKGrotesk-Medium.ttf") format("truetype");
 }
@@ -20,10 +25,7 @@
   src: url("../assets/font/HKGrotesk-Regular.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "hk-grotesk-semi-bold";
-  src: url("../assets/font/HKGrotesk-SemiBold.ttf") format("truetype");
-}
+
 
 .reference-link {
   font-weight: bold;
@@ -80,9 +82,16 @@
   }
 }
 
+.left-0{
+  left:0;
+}
 .svg-icon {
   height: 2rem;
   width: 4rem;
+}
+
+.cover{
+  object-fit: cover;
 }
 
 .text-with-highlight {
@@ -97,7 +106,7 @@
 }
 
 .footer {
-  background: $color-grey-000;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .text-transform-none {
@@ -129,19 +138,19 @@
 }
 
 .heading {
-  font-family: hk-grotesk-medium, Helvetica Neue, Arial, sans-serif !important;
-  font-weight: 500;
+  font-family: hk-grotesk-regular, Helvetica Neue, Arial, sans-serif !important;
+  font-weight: 400;
   font-size: 3rem; //48px
   line-height: 4.5rem; //72px
   color: $color-grey-100;
 }
 
 .secondary-heading {
-  font-family: hk-grotesk-medium, Helvetica Neue, Arial, sans-serif !important;
-  font-weight: 500;
+  font-family: hk-grotesk-regular, Helvetica Neue, Arial, sans-serif !important;
+  font-weight: 400;
   font-size: 2rem; //32px
   line-height: 3rem; //40px
-  color: color-grey-100;
+  color: $color-grey-100;
 }
 
 .sub-heading {
@@ -240,3 +249,54 @@
   background: rgba(252, 135, 42, 0.15);
   color: #f87415;
 }
+
+.highlight-swap-e {
+  background: rgba(26, 176, 114, 0.15);
+  color: #1AB072;
+}
+
+.flex-2-col{
+  flex: 50%;
+ max-width: 50%;
+}
+
+.container-padding-override{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.blur-background {
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  }
+  
+  .header-fixed {
+  padding: 0 3rem !important;
+  align-items: center;
+  }
+  
+  .header-title-fixed {
+  padding: 0 !important;
+  font-size: 1.25rem !important;
+  }
+  
+  .sticky {
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  }
+  
+  #navbar #header {
+  transition: 0.4s;
+  }
+
+  .content-container {
+    padding-top: 10% !important;
+    }
+  
