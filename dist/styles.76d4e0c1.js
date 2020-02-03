@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/font/SansForgetica-Regular.otf":[["SansForgetica-Regular.4efd48bd.otf","../assets/font/SansForgetica-Regular.otf"],"../assets/font/SansForgetica-Regular.otf"],"./../assets/font/HKGrotesk-Bold.ttf":[["HKGrotesk-Bold.18bd3d2e.ttf","../assets/font/HKGrotesk-Bold.ttf"],"../assets/font/HKGrotesk-Bold.ttf"],"./../assets/font/HKGrotesk-SemiBold.ttf":[["HKGrotesk-SemiBold.e07bf1a4.ttf","../assets/font/HKGrotesk-SemiBold.ttf"],"../assets/font/HKGrotesk-SemiBold.ttf"],"./../assets/font/HKGrotesk-Medium.ttf":[["HKGrotesk-Medium.4579de02.ttf","../assets/font/HKGrotesk-Medium.ttf"],"../assets/font/HKGrotesk-Medium.ttf"],"./../assets/font/HKGrotesk-Regular.ttf":[["HKGrotesk-Regular.8df35bd2.ttf","../assets/font/HKGrotesk-Regular.ttf"],"../assets/font/HKGrotesk-Regular.ttf"],"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../assets/font/SansForgetica-Regular.otf":[["SansForgetica-Regular.4efd48bd.otf","../assets/font/SansForgetica-Regular.otf"],"../assets/font/SansForgetica-Regular.otf"],"./../assets/font/HKGrotesk-Bold.ttf":[["HKGrotesk-Bold.18bd3d2e.ttf","../assets/font/HKGrotesk-Bold.ttf"],"../assets/font/HKGrotesk-Bold.ttf"],"./../assets/font/HKGrotesk-SemiBold.ttf":[["HKGrotesk-SemiBold.e07bf1a4.ttf","../assets/font/HKGrotesk-SemiBold.ttf"],"../assets/font/HKGrotesk-SemiBold.ttf"],"./../assets/font/HKGrotesk-Medium.ttf":[["HKGrotesk-Medium.4579de02.ttf","../assets/font/HKGrotesk-Medium.ttf"],"../assets/font/HKGrotesk-Medium.ttf"],"./../assets/font/HKGrotesk-Regular.ttf":[["HKGrotesk-Regular.8df35bd2.ttf","../assets/font/HKGrotesk-Regular.ttf"],"../assets/font/HKGrotesk-Regular.ttf"],"./../assets/icon/linkedin.svg":[["linkedin.6e3db03d.svg","../assets/icon/linkedin.svg"],"../assets/icon/linkedin.svg"],"./../assets/icon/linkedin-colored.svg":[["linkedin-colored.caae9848.svg","../assets/icon/linkedin-colored.svg"],"../assets/icon/linkedin-colored.svg"],"./../assets/icon/twitter.svg":[["twitter.01dd83fd.svg","../assets/icon/twitter.svg"],"../assets/icon/twitter.svg"],"./../assets/icon/twitter-colored.svg":[["twitter-colored.bb8805a5.svg","../assets/icon/twitter-colored.svg"],"../assets/icon/twitter-colored.svg"],"./../assets/icon/instagram.svg":[["instagram.9025f615.svg","../assets/icon/instagram.svg"],"../assets/icon/instagram.svg"],"./../assets/icon/instagram-colored.svg":[["instagram-colored.08479c26.svg","../assets/icon/instagram-colored.svg"],"../assets/icon/instagram-colored.svg"],"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65305" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57654" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
