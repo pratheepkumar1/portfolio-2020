@@ -9,7 +9,7 @@
 
 <body>
   <div class="d-flex flex-column col-12 p-0 body-container">
-    <div class="d-flex p-5">
+    <div class="d-flex p-5 sticky" id="navbar">
       <a href="/home.html" class="d-flex button link pr-5">
         <img src="/arrow-left.6f35ba5c.svg" class="svg-icon" alt="">
         <span class="d-flex pt-2">
@@ -17,13 +17,9 @@
         </span>
       </a>
       <div class="d-flex flex-fill flex-column align-items-center justify-content-center ">
-        <span class="page-title pb-2">
+        <span class="page-title pb-2" id="header">
           About Me
         </span>
-        <p class="paragraph mb-4">
-          Here's a little something about myself which might help you know me a
-          bit more
-        </p>
       </div>
       <a href="/home.html" class="d-flex button link">
         <span class="d-flex pt-1">
@@ -32,7 +28,13 @@
         <img src="/hamburger.97e12177.svg" class="svg-icon" alt="menu">
       </a>
     </div>
-    <div class="d-flex page-content-padding p-5 flex-column">
+    <div class="d-flex page-content-padding content-container p-5 flex-column">
+      <div class="d-flex flex-fill flex-column align-items-center py-4">
+        <p class="paragraph mb-4">
+          Here's a little something about myself which might help you know me a
+          bit more
+        </p>
+      </div>
       <div class="d-flex flex-fill flex-small-column py-4 pb-5">
         <div class="d-flex flex-fill flex-column">
           <span class="sub-heading">
@@ -189,33 +191,6 @@
 
               </div>
             </div>
-
-            <!-- <div id="myModal" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- <div class="image-row"> 
-              <div class="image-column">
-                <img src="../assets/about-me/2F5F9299-E2AA-4A52-A337-B328D659ED34.JPG" style="width:100%">
-                <img src="../assets/about-me/43BF888C-4FEF-4759-B07F-F427ADD8C307.JPG" style="width:100%">
-                <img src="../assets/about-me/144FEAA2-38C6-4329-9C59-22A8F188A00D.JPG" style="width:100%">
-              </div>
-              <div class="image-column">
-                <img src="../assets/about-me/E89C23CF-22E6-41D2-8861-177EEF4CF3DE.jpg" style="width:100%">
-                <img src="../assets/about-me/IMG_5269.jpg" style="width:100%">
-                <img src="../assets/about-me/photo1.jpg" style="width:100%">
-               </div>
-               <div class="image-column">
-                <img src="../assets/about-me/6B0A178B-DA74-4642-B0D5-A85536725982.JPG" style="width:100%">
-                <img src="../assets/about-me/IMG_4965.jpg" style="width:100%">
-                <img src="../assets/about-me/photo2.jpg" style="width:100%">
-               </div>
-            </div> -->
           </div>
 
 
@@ -236,19 +211,26 @@
         </div>
       </div>
       <span class="d-flex paragraph pt-3 text-transform-none">
-        <img src="/linkedin.6e3db03d.svg" width="30" height="30" class="mr-3" alt="">
-        <img src="/twitter.01dd83fd.svg" width="30" height="30" class="mr-3" alt="">
-        <img src="/instagram.9025f615.svg" width="30" height="30" class="mr-3" alt="">
+        <a href="https://www.linkedin.com/in/pratheepkumarc/" target="_blank">
+          <div class="mr-3 linkedin social-link">
+        </div></a>
+        <a href="https://twitter.com/pratheepkumar1" target="_blank">
+          <div class="mr-3 twitter social-link">
+        </div></a>
+        <a href="https://www.instagram.com/pratheepkumar1/" target="_blank">
+          <div class="mr-3 instagram social-link">
+        </div></a>
       </span>
       <span class="d-flex paragraph-small pt-3 text-transform-none">
         Interested to know more about me or my work?
       </span>
       <span class="d-flex paragraph-small text-transform-none">
-        Drop me a line at <strong class="px-1 hyper-link-small">pratheepkumar1@gmail.com</strong>
+        Drop me a line at<a href="mailto:pratheepkumar1@gmail.com"><strong class="px-1 hyper-link-small">pratheepkumar1@gmail.com</strong></a>
       </span>
     </footer>
   </div>
   
+  <script src="/script.f5aa2ae4.js"></script>
 </body>
 
 </html>

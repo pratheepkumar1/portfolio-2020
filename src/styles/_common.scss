@@ -202,6 +202,7 @@
   color: $color-grey-075;
 }
 
+
 .hyper-link-small {
   font-family: hk-grotesk-semi-bold, Helvetica Neue, Arial, sans-serif !important;
   font-weight: 600;
@@ -344,4 +345,11 @@
   &:hover {
     background: url("../assets/icon/instagram-colored.svg");
   }
+}
+
+.cover-image{
+  background: url("../assets/Cover-Image/Swap-E.png");
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
