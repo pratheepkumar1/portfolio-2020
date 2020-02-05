@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/dual-tone/relevance</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E3E5E8" offset="0%"></stop>
+            <stop stop-color="#C2C6CC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A5ADB7" offset="0%"></stop>
+            <stop stop-color="#6C7580" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/dual-tone/relevance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v2/icon/timeline-copy-2">
+            <rect id="Rectangle" x="0" y="0" width="84" height="84"></rect>
+            <g id="pin" transform="translate(20.000000, 12.000000)">
+                <path d="M21.7297266,0 C9.74789063,0 0,9.74789063 0,21.7296094 C0,36.5992969 19.4459766,58.4288672 20.2739063,59.3508984 C21.0515625,60.2170312 22.4092969,60.2155078 23.1855469,59.3508984 C24.0134766,58.4288672 43.4594531,36.5992969 43.4594531,21.7296094 C43.4594531,9.74789063 33.7114453,0 21.7297266,0 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M21.7297216,31.729668 C16.2156072,31.729668 11.729668,27.2436696 11.729668,21.7296144 C11.729668,16.2155591 16.2157144,11.729668 21.7297216,11.729668 C27.2437287,11.729668 31.729668,16.2156663 31.729668,21.7297216 C31.729668,27.2437768 27.2437287,31.729668 21.7297216,31.729668 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

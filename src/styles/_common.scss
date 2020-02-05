@@ -92,6 +92,11 @@
   width: 4rem;
 }
 
+.svg-icon-large {
+  height: 5.25rem;
+  width: 5.25rem;
+}
+
 .cover {
   object-fit: cover;
 }
@@ -116,7 +121,7 @@
 }
 
 .card-dark {
-  background: #333333;
+  background: $color-grey-025;
   border-radius: 4px;
 }
 
@@ -315,8 +320,34 @@
   width: 2rem;
 }
 
-.width-half {
+.width-50 {
   width: 50%;
+  flex-basis: 50%;
+}
+
+.width-75{
+  width: 75%;
+  flex-basis: 75%;
+}
+
+.width-25{
+  width: 25%;
+  flex-basis: 25%;
+}
+
+.width-60 {
+  width: 60%;
+  flex-basis: 60%;
+}
+
+.width-40 {
+  width: 40%;
+  flex-basis: 40%;
+}
+
+.width-20 {
+  width: 20%;
+  flex-basis: 20%;
 }
 
 .image-fit {
@@ -348,8 +379,9 @@
 }
 
 .cover-image{
-  background: url("../assets/Cover-Image/Swap-E.png");
+  
   width: 100%;
   height: 100vh;
   object-fit: cover;
+ 
 }
