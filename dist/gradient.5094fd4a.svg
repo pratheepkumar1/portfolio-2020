@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1218px" height="48px" viewBox="0 0 1218 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 74</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#DDF8FF" offset="0%"></stop>
+            <stop stop-color="#95E9FE" offset="9.96775079%"></stop>
+            <stop stop-color="#63E0FF" offset="24.81009%"></stop>
+            <stop stop-color="#E7E2D3" offset="37.9488374%"></stop>
+            <stop stop-color="#EDCC62" offset="51.9681408%"></stop>
+            <stop stop-color="#B7745E" offset="69.9556271%"></stop>
+            <stop stop-color="#477196" offset="82.929787%"></stop>
+            <stop stop-color="#283E51" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Instincts-2017" transform="translate(-111.000000, -4119.000000)">
+            <g id="Group-74" transform="translate(111.000000, 4119.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="1218" height="48" rx="10"></rect>
+                <text id="Night-Sky" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="32" fill="#000000">
+                    <tspan x="930" y="22">Night  Sky</tspan>
+                </text>
+                <text id="Evening-Sky" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="32" fill="#000000">
+                    <tspan x="623" y="22">Evening Sky</tspan>
+                </text>
+                <text id="Afternoon-Sky" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="32" fill="#000000">
+                    <tspan x="319" y="22">Afternoon Sky</tspan>
+                </text>
+                <text id="Morning-Sky" font-family="ProximaNova-Semibold, Proxima Nova" font-size="14" font-weight="500" line-spacing="32" fill="#000000">
+                    <tspan x="15" y="22">Morning Sky</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

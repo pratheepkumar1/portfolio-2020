@@ -8,7 +8,19 @@
 </head>
 
 <body>
-    
+    <div class="nav" id="nav">
+        <div class="flex-fill menu-icon justify-content-end p-5 mr-5">
+          <img onclick="onMenuClose();" src="../assets/icon/close.svg" class="svg-icon" alt="menu">
+        </div>
+        <div class="nav__content">
+          <ul class="nav__list">
+            <li class="nav__list-item button mx-4">Home</li>
+            <li class="nav__list-item button mx-4">About</li>
+            <li class="nav__list-item button mx-4">Projects</li>
+            <li class="nav__list-item button mx-4">Contact</li>
+          </ul>
+        </div>
+      </div>
     <div class="d-flex flex-column col-12 body-container p-0">
        
             <div class="d-flex flex-column px-5 mb-5 cover-image" style= background-image:url(../assets/Cover-Image/Swap-E.png)>
@@ -398,7 +410,15 @@
             </div>
         </div>
     </div>
-
+    <script>
+        function onMenuClose() {
+         document.querySelector("body").classList.remove("nav-active");
+         document.getElementById("nav").classList.remove("active");
+       }
+        </script>
+          <script type="text/javascript" src="../js/script.js"></script>
+          <script type="text/javascript" src="../js/menu.js"></script>
+           
 </body>
 
 </html>

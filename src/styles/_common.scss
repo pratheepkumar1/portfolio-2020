@@ -251,7 +251,7 @@
   background-color: #6c7580;
 }
 
-.highlight-orange {
+.highlight-moviebuff {
   background: rgba(252, 135, 42, 0.15);
   color: #f87415;
 }
@@ -259,6 +259,11 @@
 .highlight-swap-e {
   background: rgba(26, 176, 114, 0.15);
   color: #1ab072;
+}
+
+.highlight-instincts{
+  background: rgba(82, 157, 247, 0.15);
+  color: #529df7;
 }
 
 .flex-2-col {
@@ -350,8 +355,17 @@
   flex-basis: 20%;
 }
 
-.image-fit {
+.width-33 {
+  width: 33.33%;
+  flex-basis: 33.33%;
+}
+
+.image-fit-contain {
   object-fit: contain;
+}
+
+.image-fit-cover {
+  object-fit: cover;
 }
 
 .linkedin {
