@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon/dual-tone/preference</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A5ADB7" offset="0%"></stop>
+            <stop stop-color="#6C7580" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#A5ADB7" offset="0%"></stop>
+            <stop stop-color="#6C7580" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#A5ADB7" offset="0%"></stop>
+            <stop stop-color="#6C7580" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#A5ADB7" offset="0%"></stop>
+            <stop stop-color="#6C7580" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#E3E5E8" offset="0%"></stop>
+            <stop stop-color="#C2C6CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/dual-tone/preference" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v2/icon/timeline-copy-3">
+            <rect id="Rectangle" x="0" y="0" width="84" height="84"></rect>
+            <g id="noun_Love_2253551" transform="translate(10.000000, 10.000000)">
+                <path d="M64,32 L59.8709677,34.4774194 L55.7419355,36.9548387 L55.7419355,33.0322581 L53.0683871,33.0322581 C53.3519432,32.3597811 53.5932721,31.67027 53.7909677,30.9677419 L55.7419355,30.9677419 L55.7419355,27.0451613 L59.8709677,29.5225806 L64,32 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M10.8903226,33.0322581 L8.25806452,33.0322581 L8.25806452,36.9548387 L4.12903226,34.4774194 L0,32 L4.12903226,29.5225806 L8.25806452,27.0451613 L8.25806452,30.9677419 L10.1780645,30.9677419 C10.3784085,31.6681513 10.6161692,32.3573129 10.8903226,33.0322581 L10.8903226,33.0322581 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M36.9548387,8.25806452 L33.0322581,8.25806452 L33.0322581,13.0683871 C32.6812903,13.2541935 32.3406452,13.4606452 32,13.6774194 C31.6593548,13.4606452 31.3083871,13.243871 30.9677419,13.0580645 L30.9677419,8.25806452 L27.0451613,8.25806452 L29.5225806,4.12903226 L32,0 L34.4774194,4.12903226 L36.9548387,8.25806452 Z" id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="url(#linearGradient-4)" fill-rule="nonzero" points="36.9548387 55.7419355 34.4774194 59.8709677 32 64 29.5225806 59.8709677 27.0451613 55.7419355 30.9677419 55.7419355 30.9677419 52.5522581 31.876129 53.0683871 33.0322581 52.4180645 33.0322581 55.7419355"></polygon>
+                <path d="M32,18.9832258 C44.8206452,6.19354839 66.0645161,29.0580645 31.8864516,48.32 C-1.93032258,29.0580645 19.2,6.19354839 32,18.9832258 Z" id="Path" fill="url(#linearGradient-5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
