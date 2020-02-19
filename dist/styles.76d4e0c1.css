@@ -11510,6 +11510,10 @@ h3 {
   line-height: 1.5rem;
   color: #f2f2f2;
 }
+.button :hover {
+  color: white;
+  text-decoration: none;
+}
 
 .hyper-link {
   font-family: hk-grotesk-semi-bold, Helvetica Neue, Arial, sans-serif !important;

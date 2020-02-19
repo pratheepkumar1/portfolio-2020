@@ -8,6 +8,19 @@
 </head>
 
 <body>
+  <div class="nav" id="nav">
+    <div class="flex-fill menu-icon justify-content-end p-5 mr-5">
+      <img onclick="onMenuClose();" src="../assets/icon/close.svg" class="svg-icon" alt="menu">
+    </div>
+    <div class="nav__content">
+      <ul class="nav__list">
+        <li class="nav__list-item button mx-4"><a href="../pages/index.html" class="button">Home</a></li>
+        <li class="nav__list-item button mx-4"><a href="../pages/project.html"  class="button">Projects</a></li>
+        <li class="nav__list-item button mx-4"><a href="../pages/about.html"  class="button">About</a></li>
+        <li class="nav__list-item button mx-4"><a href="../pages/resume.html"  class="button">Resume</a></li>
+      </ul>
+    </div>
+  </div>
   <div class="d-flex flex-column col-12 p-0 body-container">
     <div class="d-flex p-5 sticky" id="navbar">
       <a href="home.html" class="d-flex button link pr-5">
@@ -21,12 +34,12 @@
           About Me
         </span>
       </div>
-      <a href="home.html" class="d-flex button link">
+      <div class="d-flex button link pr-5 menu-icon-on-click">
         <span class="d-flex pt-1">
-          menu
+          Menu
         </span>
-        <img src="../assets/icon/hamburger.svg" class="svg-icon" alt="menu">
-      </a>
+        <img src="../assets/icon/arrow-right.svg" class="svg-icon" alt="menu">
+      </div>
     </div>
     <div class="d-flex page-content-padding content-container p-5 flex-column">
       <div class="d-flex flex-fill flex-column align-items-center py-4">
@@ -244,7 +257,15 @@
     </footer>
   </div>
   </div>
-  <script src="../js/script.js"></script>
+  <script>
+    function onMenuClose() {
+      document.querySelector("body").classList.remove("nav-active");
+      document.getElementById("nav").classList.remove("active");
+    }
+  </script>
+  <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="../js/menu.js"></script>
+
 </body>
 
 </html>
