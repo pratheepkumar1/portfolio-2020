@@ -11511,7 +11511,7 @@ h3 {
   color: #f2f2f2;
 }
 .button :hover {
-  color: white;
+  color: #f2f2f2;
   text-decoration: none;
 }
 
@@ -11521,6 +11521,11 @@ h3 {
   font-size: 1.25rem;
   line-height: 2.5rem;
   color: #c2c6cc;
+}
+
+.hyper-link-none :hover {
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
 .hyper-link-small {
