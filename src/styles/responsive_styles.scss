@@ -1,0 +1,11 @@
+.timeline{
+    @include mq(small){
+      display: none !important;
+    }
+  }
+
+  .flex-direction-small-column{
+      @include mq(small){
+          flex-direction: column;
+      }
+  }

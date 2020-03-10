@@ -78,9 +78,17 @@
 }
 
 .page-content-padding {
-  padding: 0 15% !important;
   @include mq(small) {
-    padding: 0 10% !important;
+    padding: 0 2rem !important;
+  }
+  @include mq(xsmall) {
+    padding: 0 1rem !important;
+  }
+  @include mq(medium) {
+    padding: 0 15% !important;
+  }
+  @include mq(large) {
+    padding: 0 15% !important;
   }
 }
 
@@ -141,6 +149,10 @@
   font-size: 3rem; //48px
   line-height: 4.5rem; //72px
   color: $color-grey-100;
+  @include mq(small) {
+    font-size: 2rem; //16px
+    line-height: 3rem; //32px
+  }
 }
 
 .heading {
@@ -149,6 +161,10 @@
   font-size: 3rem; //48px
   line-height: 4.5rem; //72px
   color: $color-grey-100;
+  @include mq(small) {
+    font-size: 2rem; //16px
+    line-height: 3rem; //32px
+  }
 }
 
 .secondary-heading {
@@ -157,6 +173,10 @@
   font-size: 2rem; //32px
   line-height: 3rem; //40px
   color: $color-grey-100;
+  @include mq(small) {
+    font-size: 1.5rem; //16px
+    line-height: 2rem; //32px
+  }
 }
 
 .sub-heading {
@@ -167,6 +187,10 @@
   font-size: 1rem; //16px
   line-height: 1.5rem; //24px
   color: $color-grey-050;
+  @include mq(small) {
+    font-size: 0.75rem; //16px
+    line-height: 1.5rem; //32px
+  }
 }
 
 .pb-xxx {
@@ -179,6 +203,11 @@
   font-size: 1.25rem; //20px
   line-height: 2.5rem; //40px
   color: $color-grey-075;
+  @include mq(small) {
+    font-size: 1rem; //16px
+    line-height: 2rem; //32px
+  }
+
 }
 
 .paragraph-small {
@@ -187,6 +216,10 @@
   font-size: 1rem; //16px
   line-height: 2rem; //24px
   color: $color-grey-075;
+  @include mq(small) {
+    font-size: 0.75rem; //12px
+    line-height: 1.5rem; //24px
+  }
 }
 
 .button {
@@ -414,3 +447,4 @@
   object-fit: cover;
  
 }
+

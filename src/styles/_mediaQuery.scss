@@ -1,8 +1,13 @@
-$medium-screen: 40em;
+$small-screen: 20em;
+$medium-screen: 50em;
 $large-screen: 60em;
 $xlarge-screen: 80em;
-
 @mixin mq($mq) {
+  @if $mq == xSmall {
+    @media (min-width: $small-screen) and (max-width: $medium-screen) {
+      @content;
+    }
+  }
   @if $mq == small {
     @media (max-width: $medium-screen) {
       @content;
